@@ -55,10 +55,6 @@ body {
     margin-block: var(--spacing-5);
     font-weight: 600;
     letter-spacing: 0.02em;
-
-    & media (min-width: 20rem) {
-      letter-spacing: 0.5em;
-    }
   }
 
   & h2 {
