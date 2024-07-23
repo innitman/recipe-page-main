@@ -50,16 +50,24 @@ body {
 
   & h1 {
     font-family: "Young Serif", var(--font-serif);
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: var(--stone-900);
     margin-block: var(--spacing-5);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+
+    & media (min-width: 20rem) {
+      letter-spacing: 0.5em;
+    }
   }
 
   & h2 {
     font-family: "Young Serif", var(--font-serif);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--brown-800);
     margin-block: var(--spacing-4);
+    font-weight: 600;
+    letter-spacing: 0.02em;
   }
 
   & p {
@@ -113,6 +121,7 @@ body {
 
     & td {
       font-weight: 700;
+      color: var(--brown-800);
     }
   }
 
